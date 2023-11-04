@@ -1,0 +1,3 @@
+<view class="card" style="--card_width:{{width}};--card_height: {{height}};">
+  <slot />
+</view>

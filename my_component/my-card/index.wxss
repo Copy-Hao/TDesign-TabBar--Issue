@@ -1,0 +1,9 @@
+.card {
+  display: block;
+  margin: auto;
+  width: var(--card_width);
+  height: var(--card_height);
+  border-radius: 8px;
+  border: 1px solid #D1D5DB;
+  background: #F9FAFB;
+}

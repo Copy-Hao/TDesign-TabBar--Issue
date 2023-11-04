@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-card": "../../my_component/my-card/index"
+  }
+}

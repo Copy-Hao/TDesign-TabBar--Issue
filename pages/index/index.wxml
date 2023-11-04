@@ -1,0 +1,21 @@
+<t-swiper current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" list="{{swiperList}}" navigation="{{ { type: 'dots-bar' } }}" />
+
+<view>
+  <view class="first-row">
+    <my-card wx:for="{{4}}" wx:key="index" style="flex-basis: 43.2%" width="100%" height="84px">
+      首页
+    </my-card>
+  </view>
+</view>
+
+<view class="second-row">
+  <my-card width="100%" height="84px" width="89.3%" height="96px">
+    定制化
+  </my-card>
+</view>
+
+<view class="third-row">
+  <my-card wx:for="{{2}}" wx:key="index" style="flex-basis: 43.2%" width="100%" height="100px">
+    首页
+  </my-card>
+</view>
