@@ -15,5 +15,6 @@ App({
   },
   globalData: {
     userInfo: null,
+    value: "label_1"
   }
 })
